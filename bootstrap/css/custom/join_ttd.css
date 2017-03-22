@@ -1,0 +1,235 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 20vw;
+	background-image: url("../../../images/maine.jpg");
+
+}
+
+.row{
+	margin: 0px;
+}
+
+header{
+	margin: 0px;
+	padding: 0px;
+}
+	/* TOP LOGO */
+	header #logo{
+		background-color: rgba(255,255,255,0.85);
+		height: 11.1vw;
+	}
+		header #logo p{
+			font-family: gotham;
+			font-size: 3vw;
+			margin: 5vw 0vw 0vw 2vw;
+		}
+			header #logo #darkblue{
+				color: rgba(21,66,92,1);
+			}
+			header #logo #lightblue{
+				color: rgba(6,98,140,1);
+			}
+		header #logo img{
+			position: absolute;
+			width: 7.5vw;
+			top: 1.25vw;
+			right: 0.5vw;
+			z-index: 10;
+		}
+	
+	header #donate_apply{
+		padding: 0vw;
+		background-color: rgba(255,255,255,0.85);
+		height: 11.1vw;
+	}
+		header #donate_apply #apply{
+			border: .3vw solid rgba(0,0,0,1);
+			background-color: rgba(0,0,0,0);
+			color: rgba(0,0,0,1);
+			width: 9vw;
+			height: 4.3vw;
+			font-family: "gotham";
+			font-size: 1.3vw;
+			letter-spacing: 1px;
+			padding: .5vw 0vw 0vw 0vw;
+			position: absolute;
+			top: 3.25vw;
+			right: 15vw;
+		}
+		header #donate_apply #apply:hover{
+			background-color: rgba(0,0,0,1);
+			color: rgba(255,255,255,1);
+		}
+		header #donate_apply #donate{
+			border: .3vw solid rgba(0,0,0,1);
+			background-color: rgba(0,0,0,0);
+			color: rgba(0,0,0,1);
+			width: 9vw;
+			height: 4.3vw;
+			font-family: "gotham";
+			font-size: 1.3vw;
+			letter-spacing: 1px;
+			padding: .5vw 0vw 0vw 0vw;
+			position: absolute;
+			top: 3.25vw;
+			right: 3.5vw;
+		}
+		header #donate_apply #donate:hover{
+			background-color: rgba(0,0,0,1);
+			color: rgba(255,255,255,1);
+		}
+	
+	/* NAVIGATION BAR */
+	header nav{
+		padding: 0px;
+	}
+		header nav .dropbtn{
+		    background-color: rgba(0,0,0,0);
+		    color: rgba(255,255,255,0.85);
+			font-family: "gotham";
+		    font-size: 1.25vw;
+		    border: none;
+		    cursor: pointer;
+		    width: 14.286vw;
+		    padding: .75vw 0vw .75vw 0vw;
+		    margin: 0vw -.3vw 0vw 0vw;
+		}
+
+		header nav #last{
+		    margin: 0vw -.35vw 0vw 0vw;
+		}
+
+		header nav .dropbtn:hover{
+		    background-color: rgba(255,255,255,0.85);
+		    color: rgba(0,0,0,1);
+		}
+		header nav #active{
+		    background-color: rgba(255,255,255,0.85);
+		    color: rgba(0,0,0,1);
+		}
+
+#background{
+	background-color: rgba(255,255,255,1);
+	width: 86.5vw;
+	position: absolute;
+	top: 17vw;
+	left: 6.75vw;
+	z-index: -1;
+	height: 36vw;
+}
+
+.main_content{
+	margin: 0px;
+	padding: 0px;
+}
+	.main_content .row .col-xs-11 h1{
+		margin: 5vw 0vw 2vw 0vw;
+		font-family: "gotham";
+		font-size: 3vw;
+		color: rgba(0,0,0,1);
+	}
+
+	#question{
+		text-align: center;
+		margin: 2.5vw 0vw 2.5vw 0vw;
+		color: rgba(0,0,0,1);
+		font-family: gotham;
+		font-size: 2vw;
+	}
+
+	.main_content .row .student{
+		padding: 0vw 2.5vw 5vw 10vw;
+	}
+		.main_content .row .student button{
+			border: .2vw solid rgba(6,98,140,1);
+			color: rgba(6,98,140,1);
+			font-family: "gotham";
+			font-size: 3vw;
+			width: 37.5vw;
+			height: 20vw;
+			margin: 0vw;
+		}
+		.main_content .row .student button:hover{
+			background-color: rgba(6,98,140,1);
+			color: rgba(255,255,255,1);
+		}
+
+	.main_content .row .teacher{
+		padding: 0vw 10vw 5vw 2.5vw;
+	}
+		.main_content .row .teacher button{
+			border: .2vw solid rgba(6,98,140,1);
+			color: rgba(6,98,140,1);
+			font-family: "gotham";
+			font-size: 3vw;
+			width: 37.5vw;
+			height: 20vw;
+			margin: 0vw;
+		}
+		.main_content .row .teacher button:hover{
+			background-color: rgba(6,98,140,1);
+			color: rgba(255,255,255,1);
+		}
+
+	.main_content #instructions{
+		text-align: center;
+		font-size: 1.5vw;
+		margin: 0vw 0vw 5vw 0vw;
+	}
+	.display-block{
+		display: block;
+	}
+	.display-none{
+		display: none;
+	}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 18vw;
+	background-color: rgba(255,255,255,0.85);
+}
+	.footer .container #footer_logo img{
+		width: 15vw;
+		margin: 5vw 0vw 0vw 2.5vw;
+	}
+	.footer .container #sitemap{
+		padding: 1.5vw 0vw 0vw 0vw;
+	}
+		.footer .container #sitemap a{
+			color: rgba(0,0,0,1);
+		}
+			.footer .container #sitemap p{
+				margin: .25vw 0vw 0vw 3vw;
+				padding: 0vw;
+				font-family: "gotham";
+				font-size: 1.25vw;
+			}
+			.footer .container #sitemap #title{
+				margin: 0vw;
+				color: rgba(0,0,0,1);
+
+			}
+	.footer .container #footer_social_media #facebook{
+		position: absolute;
+		right: 3vw;
+		top: 13vw;
+		width: 4vw;
+	}
+	.footer .container #footer_social_media #instagram{
+		position: absolute;
+		right: -2vw;
+		top: 13vw;
+		width: 4vw;
+	}
+	.footer .container #footer_social_media #blogger{
+		position: absolute;
+		right: -7vw;
+		top: 13vw;
+		width: 4vw;
+	}
