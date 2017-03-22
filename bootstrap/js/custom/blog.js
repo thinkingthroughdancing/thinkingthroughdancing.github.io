@@ -1,4 +1,4 @@
-document.write("\x3cdiv class\x3d\x22feedburnerFeedBlock\x22 id\x3d\x22ThinkingThroughDancingbsertj0lc40jff5i52usneht8o\x22\x3e");
+document.write("\x3cdiv class\x3d\x22feedburnerFeedBlock\x22 id\x3d\x22ThinkingThroughDancing77eokf399bpeq5grunabqjotm4\x22\x3e");
 document.write("\x3cp class\x3d\x22feedTitle\x22\x3e\x3ca href\x3d\x22http://thinkingthroughdancing.blogspot.com/\x22\x3eThinking Through Dancing\x3c/a\x3e\x3c/p\x3e");
 document.write("\x3cul\x3e");
 document.write("\x3cli\x3e\x3cspan class\x3d\x22headline\x22\x3e\x3ca href\x3d\x22http://thinkingthroughdancing.blogspot.com/2017/03/why-is-dance-education-important.html\x22 target\x3d\x22_blank\x22 \x3eWhy is Dance Education Important?\x3c/a\x3e\x3c/span\x3e");
@@ -6,7 +6,7 @@ document.write("\x3cp class\x3d\x22date\x22\x3e3/22/2017\x3c/p\x3e");
 document.write("\x3cdiv\x3eThe dance classroom is more than a studio; it is a laboratory.\x26nbsp; It is the training ground for an unforeseeable\x26#8230;\x3c/div\x3e");
 document.write("\x3c/li\x3e");
 document.write("\x3cli\x3e\x3cspan class\x3d\x22headline\x22\x3e\x3ca href\x3d\x22http://thinkingthroughdancing.blogspot.com/2017/01/test2.html\x22 target\x3d\x22_blank\x22 \x3eTTD Holiday Fundraiser\x3c/a\x3e\x3c/span\x3e");
-document.write("\x3cp class\x3d\x22date\x22\x3e3/22/2017\x3c/p\x3e");
+document.write("\x3cp class\x3d\x22date\x22\x3e1/22/2017\x3c/p\x3e");
 document.write("\x3cdiv\x3e Thinking Through Dancing needs your help! Check out our most recent fundraiser at\x26nbsp;https://www.generosity.com/education-fundraising/thinking-through-dancing-holiday-fundraiser\x26nbsp;to help us not only continue to\x26#8230;\x3c/div\x3e");
 document.write("\x3c/li\x3e");
 document.write("\x3c/ul\x3e");
